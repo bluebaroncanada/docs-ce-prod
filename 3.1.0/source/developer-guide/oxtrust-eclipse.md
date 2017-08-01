@@ -99,10 +99,9 @@ In the Help / Eclipse Marketplace menu add “JBoss Tools”
 In the upper right hand corner, select the Web Development perspective from the pop-up menu. 
   ![Webdev](../img/developer/oxtrust/eclipse-webdev.png)
 
-### Set Java 1.8 as JDK
+### Configure installed JREs to point to your JDK installation
 
-From the Window / Preferences menu, just check the Java / Installed JRE's tab and 
-make sure you see your 1.8 JDK (not JRE). 
+Select your JDK installation, not the JRE.  You might have to manually add it by pointing to your root Java installation.  It will automatically determine that it is a JDK installation.
 
   ![java](../img/developer/oxtrust/java-jdk.png)
 
