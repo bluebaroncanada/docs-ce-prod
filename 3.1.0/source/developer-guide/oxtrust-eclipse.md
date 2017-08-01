@@ -5,12 +5,15 @@
 This section of the document discusses how to build oxTrust using Eclipse. This guide can be followed by developers and architects to code and customize oxTrust.
 
 ## Building oxTrust With Eclipse
-!!! Note 
-    this installation procedure assumes you have a local VM running an instance of the Gluu Server CE. 
 
-Gluu CE installation is discussed in the [Installation Guide](../installation-guide/install/#install-gluu-server-package).
+### Prerequisites
 
-Testing and Beta release can be found here: [Beta Release](https://ox.gluu.org/doku.php?id=qa:platforms )
+This installation procedure assumes you have a local VM running an instance of the Gluu Server CE. 
+
+[Installation Guide](../installation-guide/install/#install-gluu-server-package)
+
+To install the latest: [Beta Release](https://ox.gluu.org/doku.php?id=qa:platforms )
+
 
 ### Summary
 Here is a quick summary: 
