@@ -73,7 +73,7 @@ Download [Eclipse IDE](http://www.eclipse.org/downloads/packages/eclipse-ide-jav
 for Java EE Developers 
 
 ### Maven
-Download the latest [Maven](https://maven.apache.org/download.cgi)binary zip 
+Download the latest [Maven](https://maven.apache.org/download.cgi)binary 
 
 ### Jetty
 Download latest zip of [Jetty 9](http://www.eclipse.org/jetty/download.html) 
