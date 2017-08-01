@@ -158,7 +158,7 @@ Select m2e-wtp webapp folder for deployment in Jetty
 Add VM arguments to jetty to specify location of oxTrust configuration. 
 You can just create two empty directories for now. 
 
-Those directories will contain gluu configuration and logs: 
+Those directories will contain Gluu configuration and logs: 
 
    ![VMarguments](../img/developer/oxtrust/vmarguments.png)
  
