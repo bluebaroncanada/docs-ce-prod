@@ -191,15 +191,15 @@ into the conf subdirectory you created (e.g. C:\home\gluu\conf\ox-ldap.propertie
 
 ### Install and configure Symas OpenLDAP
 
-1\. Download Silver Edition from [Symas Download](https://downloads.symas.com/products/symas-openldap-directory-silver-edition/)
+1\. Download Silver Edition from [Symas Download](https://downloads.symas.com/products/OpenLDAP-directory-silver-edition/)
 
-2\. Create folder for custom Gluu schema: `C:\Program Files (x86)\symas-openldap\etc\openldap\schema`
+2\. Create folder for custom Gluu schema: `C:\Program Files (x86)\OpenLDAP\etc\openldap\schema`
 
 3\. Copy into custom Gluu schema folder 2 files from CE `/opt/gluu-server-3.0.2/opt/gluu/schema/openldap`
 
-4\. Copy `C:\Program Files (x86)\symas-openldap\etc\openldap\slapd.conf.default` into `C:\Program Files (x86)\symas-openldap\etc\openldap\slapd.conf`
+4\. Copy `C:\Program Files (x86)\OpenLDAP\etc\openldap\slapd.conf.default` into `C:\Program Files (x86)\OpenLDAP\etc\openldap\slapd.conf`
 
-5\. Edit file `C:\Program Files (x86)\symas-openldap\etc\openldap\slapd.conf`
+5\. Edit file `C:\Program Files (x86)\OpenLDAP\etc\openldap\slapd.conf`
  - Uncommnet next lines:
 ```
    include		`etc/openldap/schema/ppolicy.schema`
@@ -219,7 +219,7 @@ into the conf subdirectory you created (e.g. C:\home\gluu\conf\ox-ldap.propertie
    moduleload	unique.la
 ```
 
- - Copy from CE file /opt/gluu-server-3.0.2/opt/symas/etc/openldap/slapd.conf sections into `C:\Program Files (x86)\symas-openldap\etc\openldap\slapd.conf`:
+ - Copy from CE file /opt/gluu-server-3.0.2/opt/symas/etc/openldap/slapd.conf sections into `C:\Program Files (x86)\OpenLDAP\etc\openldap\slapd.conf`:
 ```
    #######################################################################
    # Main Database housing all the o=gluu info
@@ -242,16 +242,16 @@ into the conf subdirectory you created (e.g. C:\home\gluu\conf\ox-ldap.propertie
   - Remove in sections `Main Database` and `Site database` maxsize option.
 
 6\. Create new DB folders:
-  - `C:\Program Files (x86)\symas-openldap\var\openldap-data\main_db`
-  - `C:\Program Files (x86)\symas-openldap\var\openldap-data\site_db`
+  - `C:\Program Files (x86)\OpenLDAP\var\openldap-data\main_db`
+  - `C:\Program Files (x86)\OpenLDAP\var\openldap-data\site_db`
 
 7\. Copy default DB settings (rename DB_CONFIG.default to DB_CONFIG during copy):
-  - `C:\Program Files (x86)\symas-openldap\etc\openldap\DB_CONFIG.default` into `C:\Program Files (x86)\symas-openldap\var\openldap-data\main_db\DB_CONFIG`
-  - `C:\Program Files (x86)\symas-openldap\etc\openldap\DB_CONFIG.default` into `C:\Program Files (x86)\symas-openldap\var\openldap-data\site_db\DB_CONFIG`
+  - `C:\Program Files (x86)\OpenLDAP\etc\openldap\DB_CONFIG.default` into `C:\Program Files (x86)\OpenLDAP\var\openldap-data\main_db\DB_CONFIG`
+  - `C:\Program Files (x86)\OpenLDAP\etc\openldap\DB_CONFIG.default` into `C:\Program Files (x86)\OpenLDAP\var\openldap-data\site_db\DB_CONFIG`
 
 8\. Verify OpenLDAP settings:
 ```
-   slaptest.bat -u -f `C:\Program Files (x86)\symas-openldap\etc\openldap\slapd.conf`
+   slaptest.bat -u -f `C:\Program Files (x86)\OpenLDAP\etc\openldap\slapd.conf`
    ...
    config file testing succeeded
 ```
