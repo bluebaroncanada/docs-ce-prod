@@ -171,7 +171,7 @@ Add configuration listener to oxtrust-server/src/main/webapp/WEB-INF/web.xml:
    ![conflistener](../img/developer/oxtrust/configurationlistener.png)
 
 > ** OxTrust styles are packaged in a separate project oxtrust-static. 
-In order for Jetty to correcty serve those styles close the oxtrust-static 
+In order for Jetty to correctly serve those styles close the oxtrust-static 
 project in eclipse and by updating the project under `Maven` >` Update Project` on `oxtrust` > `server project`. **  
 
 ## Configuration
