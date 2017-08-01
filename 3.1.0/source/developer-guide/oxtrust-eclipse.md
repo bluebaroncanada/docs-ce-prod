@@ -109,7 +109,7 @@ Select your JDK installation, not the JRE.  You might have to manually add it by
 
 Use the external maven you installed, not the built in maven. 
 In Window / Preferences, there is a section for Maven. 
-Under the Installations section, add the Maven folder you installed in `c:\java`
+Under the Installations section, add your local Maven installation directory.
 
    ![maven](../img/developer/oxtrust/externalmaven.png)
 
