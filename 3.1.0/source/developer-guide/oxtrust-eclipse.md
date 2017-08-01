@@ -228,6 +228,7 @@ into the conf subdirectory you created (e.g. C:\home\gluu\conf\ox-ldap.propertie
    #######################################################################
    # Site database housing o=site information
    #######################################################################
+   ...
 ```
    Hint:
    End last section is after line:
