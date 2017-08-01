@@ -155,14 +155,14 @@ Select m2e-wtp webapp folder for deployment in Jetty
 
    ![deploy](../img/developer/oxtrust/deployinjetty.png)
 
-Add VM arguments to jetty to specify location of oxTrust configuration. 
+Add VM arguments to Jetty to specify location of oxTrust configuration. 
 You can just create two empty directories for now. 
 
 Those directories will contain Gluu configuration and logs: 
 
    ![VMarguments](../img/developer/oxtrust/vmarguments.png)
  
-Change jetty version in eclipse plugin to the one you downloaded earlier: 
+Change Jetty version in eclipse plugin to the one you downloaded earlier: 
 
    ![verchange](../img/developer/oxtrust/jettyverchng.png)
 
@@ -171,7 +171,7 @@ Add configuration listener to oxtrust-server/src/main/webapp/WEB-INF/web.xml:
    ![conflistener](../img/developer/oxtrust/configurationlistener.png)
 
 > ** OxTrust styles are packaged in a separate project oxtrust-static. 
-In order for jetty to correcty serve those styles close the oxtrust-static 
+In order for Jetty to correcty serve those styles close the oxtrust-static 
 project in eclipse and by updating the project under `Maven` >` Update Project` on `oxtrust` > `server project`. **  
 
 ## Configuration
