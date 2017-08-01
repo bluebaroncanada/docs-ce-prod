@@ -244,8 +244,8 @@ into the conf subdirectory you created (e.g. C:\home\gluu\conf\ox-ldap.propertie
   - `C:\Program Files (x86)\OpenLDAP\var\openldap-data\site_db`
 
 7\. Copy default DB settings (rename DB_CONFIG.default to DB_CONFIG during copy):
-  - `C:\Program Files (x86)\OpenLDAP\etc\openldap\DB_CONFIG.default` into `C:\Program Files (x86)\OpenLDAP\var\openldap-data\main_db\DB_CONFIG`
-  - `C:\Program Files (x86)\OpenLDAP\etc\openldap\DB_CONFIG.default` into `C:\Program Files (x86)\OpenLDAP\var\openldap-data\site_db\DB_CONFIG`
+  - `C:\Program Files (x86)\OpenLDAP\etc\openldap\DB_CONFIG.default` to `C:\Program Files (x86)\OpenLDAP\var\openldap-data\main_db\DB_CONFIG`
+  - `C:\Program Files (x86)\OpenLDAP\etc\openldap\DB_CONFIG.default` to `C:\Program Files (x86)\OpenLDAP\var\openldap-data\site_db\DB_CONFIG`
 
 8\. Verify OpenLDAP settings:
 ```
