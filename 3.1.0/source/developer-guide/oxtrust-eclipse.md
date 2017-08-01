@@ -230,9 +230,7 @@ into the conf subdirectory you created (e.g. C:\home\gluu\conf\ox-ldap.propertie
    #######################################################################
    ...
 ```
-   Hint:
-   End last section is after line:
-   index	gluuStatus
+   **Copy all the way down to** `index	gluuStatus`
 
 
   - Replace in sections `Main Database` and `Site database`:
