@@ -36,7 +36,7 @@ Install LDAP Server? [Yes] :
 
 Install Apache HTTPD Server [Yes] : no 
 
-Now we need to collect critical configuration files and test data need for development environment: 
+### Collect critical configuration files 
 ```
 # mkdir /root/configs/ 
 
@@ -64,14 +64,12 @@ Download below mentioned required softwares. And this assumes you're using Windo
 If you're using Mac or 32-bit Windows, adjust accordingly. 
 
 ### Java
-Download [Java 1.8](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html),
-When you install it, make sure you install both the JDK and the JRE in `c:\java` (not Program Files). 
-Each of these software distributions should just be unzipped under `C:\java\jdk1.8.0_112` on my system. 
+Install [Java SDK](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 
-Updates your JAVA_HOME environment variable to point to the folder of your jdk, for example 
-
+You may need to update your `JAVA_HOME` environment variable to point to the root of your Java installation.
+ 
 ### Eclipse
-Download [Eclipse IDE](http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/mars1) 
+Download [Eclipse IDE](http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/oxygenr) 
 for Java EE Developers 
 
 ### Maven
