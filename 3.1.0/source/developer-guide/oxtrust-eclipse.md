@@ -258,9 +258,9 @@ into the conf subdirectory you created (e.g. C:\home\gluu\conf\ox-ldap.propertie
 
 ### Import data from CE into dev LDAP
 
-1\. Export `o=gluu` tree in CE into gluu.ldif
+1\. Export `o=gluu` tree in CE to a file such as `gluu.ldif`
 ```
-export OPENDJ_JAVA_HOME=/opt/jre; /opt/opendj/bin/ldapsearch -h localhost -p 1636  -Z -X -w secret -D `cn=directory manager,o=gluu` -b `o=gluu` objectClass=* > gluu.ldif
+export OPENDJ_JAVA_HOME=/opt/jre; /opt/opendj/bin/ldapsearch -h localhost -p 1636  -Z -X -w secret -D "cn=directory manager,o=gluu" -b "o=gluu" objectClass=* > gluu.ldif
 ```
 
 2\. Load gluu.ldif into dev LDAP and update to conform new environment
