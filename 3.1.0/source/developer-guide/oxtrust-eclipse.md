@@ -193,7 +193,7 @@ into the conf subdirectory you created (e.g. C:\home\gluu\conf\ox-ldap.propertie
 
 1\. Download Silver Edition from [Symas Download](https://downloads.symas.com/products/OpenLDAP-directory-silver-edition/)
 
-2\. Create folder for custom Gluu schema: `C:\Program Files (x86)\OpenLDAP\etc\openldap\schema`
+2\. Create folder for custom Gluu schema: `C:\Program Files (x86)\OpenLDAP\etc\openldap\schema\gluu`
 
 3\. Copy into custom Gluu schema folder 2 files from CE `/opt/gluu-server-3.0.2/opt/gluu/schema/openldap`
 
@@ -209,8 +209,8 @@ into the conf subdirectory you created (e.g. C:\home\gluu\conf\ox-ldap.propertie
 ```
  - Add next include lines:
 ```
-   include		`etc/openldap/gluu/gluu.schema`
-   include		`etc/openldap/gluu/custom.schema`
+   include		`etc/openldap/schema/gluu/gluu.schema`
+   include		`etc/openldap/schema/gluu/custom.schema`
 ```
 
  - Uncomment modules:
