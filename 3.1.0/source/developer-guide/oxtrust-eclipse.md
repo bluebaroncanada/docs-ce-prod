@@ -219,7 +219,7 @@ into the conf subdirectory you created (e.g. C:\home\gluu\conf\ox-ldap.propertie
    moduleload	unique.la
 ```
 
- - Copy from CE file /opt/gluu-server-3.0.2/opt/symas/etc/openldap/slapd.conf sections into `C:\Program Files (x86)\OpenLDAP\etc\openldap\slapd.conf`:
+ - Copy/overwrite `slapd.conf` from `/opt/gluu-server-3.0.2/opt/symas/etc/openldap/slapd.conf` to `C:\Program Files (x86)\OpenLDAP\etc\openldap\slapd.conf`:
 ```
    #######################################################################
    # Main Database housing all the o=gluu info
