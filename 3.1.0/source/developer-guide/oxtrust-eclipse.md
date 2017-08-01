@@ -115,14 +115,12 @@ Under the Installations section, add your local Maven installation directory.
 
 ### Install Eclipse Jetty Launcher
 
-You should be able to install Jetty Launcher using either of the methods
-
-If You want to run jetty in Eclipse, you can download and install 
-Jetty Launcher from [eclipse marketplace](https://marketplace.eclipse.org/content/eclipse-jetty)
-
-Or Jetty Launcher can be installed directly from eclipse marketplace 
+Jetty Launcher can be installed directly from eclipse marketplace 
 
   ![marketplace](../img/developer/oxtrust/jettylauncher.png)
+  
+or you can download it manually from [Jetty's page in the Eclipse Marketplace](https://marketplace.eclipse.org/content/eclipse-jetty)
+
 
 ### Turn off Validation
 Document validation throws a lot of errors, and its better to see these as Warnings. 
