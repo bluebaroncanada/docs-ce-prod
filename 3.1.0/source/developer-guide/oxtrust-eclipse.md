@@ -213,7 +213,7 @@ into the conf subdirectory you created (e.g. C:\home\gluu\conf\ox-ldap.propertie
    include		`etc/openldap/schema/gluu/custom.schema`
 ```
 
- - Uncomment modules:
+ - Uncomment modules (or add if necessary):
 ```
    moduleload	ppolicy.la
    moduleload	unique.la
