@@ -15,28 +15,6 @@ This installation procedure assumes you have a local VM running an instance of t
 To install the latest: [Beta Release](https://ox.gluu.org/doku.php?id=qa:platforms )
 
 
-### Summary
-Here is a quick summary: 
-
-We will be building latest branch 
-
-```
-# wget https://repo.gluu.org/centos/Gluu-centos7.repo -O /etc/yum.repos.d/Gluu.repo 
-
-# wget https://repo.gluu.org/centos/RPM-GPG-KEY-GLUU -O /etc/pki/rpm-gpg/RPM-GPG-KEY-GLUU 
-
-# rpm –import /etc/pki/rpm-gpg/RPM-GPG-KEY-GLUU 
-
-# yum clean all 
-
-# yum install gluu-server-3.0.2 
-
-# /sbin/gluu-serverd-3.0.2 start 
-
-# /sbin/gluu-serverd-3.0.2 enable 
-
-# /sbin/gluu-serverd-3.0.2 login 
-```
 !!! Note: 
     This documentation is prepared based on CentOS, follow the appropriate installation guide based on your OS.
     
